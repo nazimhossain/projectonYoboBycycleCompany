@@ -1,0 +1,351 @@
+body{
+	
+
+    font-family: 'Lato', sans-serif;
+
+
+}
+.header-section{
+	overflow: hidden;
+	background: #848789;
+	
+}
+.main-menu{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin-top: 25px;
+	
+}
+.main-menu ul li{
+	margin:0 12px;
+}
+.main-menu ul li a{
+	color: #4d4959;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	
+}
+.intro-section .section{
+	background: #848789;
+}
+.section{
+	overflow:hidden;
+	padding:100px 0;
+}
+.section h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: #353738;
+	font-weight: 700;
+	line-height: 3em;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+.section .content{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 1.4em;
+}
+.content p{
+	color: #848789;
+	font-family: lato regular;
+	font-weight: 400;
+	
+}
+.big-small{
+	position: relativel;
+	max-height: 485px;
+	overflow: hidden;
+}
+.small-big{
+	max-height: 485px;
+	overflow: hidden;
+}
+.big-small-big{
+	max-height: 485px;
+	overflow: hidden;
+}
+.section .big,
+.section .small{
+	padding: 0;
+	padding-right: 0;
+}
+.small-des{
+	padding: 40px 0 20px;
+	width: 100%;
+	height:auto;
+}
+.big img,
+.small-image img{
+	width: 100%;
+	height: auto;
+
+}
+.small-image{
+	background: url('images/bycle3.png');
+	background-size: 100% auto;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	min-height: 170px;
+}
+.small-des hr{
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-top: 1px solid #ccc;
+	width: 50px;
+}
+.small-image{
+	position: relative;
+	
+}
+.small-image:before{
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	border-top:13px solid #ffffff;
+	border-left: 10px soilid transparent;
+	border-right:10px solid transparent;
+	
+}
+.small-image2{
+	background: url('images/bycle5.png');
+	background-size: 100% auto;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	min-height: 170px;
+}
+.small-image2{
+	position: relative;
+	
+}
+.small-image2:before{
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	border-top:13px solid #ffffff;
+	border-left: 10px soilid transparent;
+	border-right:10px solid transparent;
+	
+}
+.section-logo{
+	position: absolute;
+	z-index: 9999;
+	top: 50%;
+	left:0;
+	margin-top: -59px;
+	width: 100%;
+}
+.section-logo img {
+	display: block;
+	width: 113px;
+	height: 118px;
+	margin: auto;
+}
+.small-image3{
+	background: url('images/bycle8.png');
+	background-size: 100% auto;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	min-height: 170px;
+}
+.twit-section{
+    overflow: hidden;
+	background: #f7f7f7;
+	padding-top: 0;
+}
+.twit-section h2{
+	
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	
+}
+.twit-section h2 span{
+	font-size: 16px;
+	color: #CCCCCC;
+	margin-left: 10px;
+	letter-spacing: 3px;
+	font-weight: 400;
+}
+.twit-section p {
+	font-size: 21px;
+	font-weight: 400;
+	font-style: italic;
+}
+.twit i{
+	color: #56c7ee;
+	font-size:30px;
+}
+
+.bysit1 img{
+	width: 100%;
+	height: auto;
+	min-width: 220px;
+	margin-left:-14px;
+}
+.bysit2 img{
+	width: 100%;
+	height: auto;
+	min-width: 225px;
+	margin-left: -19px;
+	margin-right: 
+}
+.bysit3 img{
+	display: block;
+	width: 100%;
+	height: auto;
+	min-width:300px;
+	min-height: 224px;
+
+	
+	
+
+}
+.midcycle1 img{
+	width:100%;
+	height:auto;
+	min-width: 230px;
+	max-height: 450px;
+	margin-left: -30px;
+}
+.midcycle2 img{
+	width:100%;
+	height:auto;
+	min-width: 239px;
+	max-height: 450px;
+	margin-left: -30px;
+}
+.home{
+	background: url('images/bycle13.png') no-repeat;
+	background-size: 100% auto;
+	background-position: cover;
+	min-width: 300px;
+	margin-right:0;
+	margin-left:0;
+	
+	
+    
+}
+.home img{
+	display: block;
+	width: 100%;
+	
+}
+.home{
+	padding-left:0;
+	padding-right:0;
+}
+.sit4 img{
+	width:100%;
+	height: auto;
+	min-height: 220px;
+	
+
+	
+}
+ .sit5 img{
+	width:100%;
+	height: auto;
+	min-height: 215px;
+				
+}
+ .sit5{
+	padding-right: 0;
+	padding-left: 0;
+}
+.black{
+	background: #000121;
+	padding-bottom: 60px;
+}
+button {
+	display: block;
+	color:white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 10px 10px;
+	margin-top: 50px;
+	
+	
+}
+.btn{
+		display:inline-block;
+		padding: 15px 30px;
+		border: 1px solid #ffffff;
+		font-size: 11px;
+		font-family: lato;
+		font-weight: 400;
+}
+.with-us{
+	padding-bottom: 100px;
+}
+.with-us img{
+	margin-top: 120px;
+}
+.with-us h3{
+	color: #cccbbb;
+	
+	font-size: 21px;
+	font-family: lato-italic;
+
+}
+form{
+	margin-top: 30px;
+}
+form .button{
+	min-width: 320px;
+	min-height: 60px;
+}
+form .button2{
+	min-width:106px;
+	min-height: 60px;
+	background: green;
+	border: none;
+}
+.footer{
+	overflow:hidden;
+	background: #f7f7f7;
+	padding: 40px 0;
+}
+.footer i{
+	font-size: 20px;
+	padding: 10px 0;
+	margin-top:30px;
+	
+}
+.tweet{
+	background:green;
+	color: white;
+	width:30px;
+	height: 30px;
+	border-radius: 50px;
+}
+.face{
+	background:green;
+	color: white;
+	width:30px;
+	height: 30px;
+	border-radius: 50px;
+}
+.google{
+	background:green;
+	color: white;
+	width:30px;
+	height: 30px;
+	border-radius: 50px;
+}
+
